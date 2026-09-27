@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "delta_error_code": "E_BAD_DELTA",
+  "counter_error_code": "E_NO_COUNTER",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "counters": [], "takes": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "add", "name": "a", "delta": 5 },
+    { "id": 2, "kind": "add", "name": "a", "delta": 3 },
+    { "id": 3, "kind": "take", "name": "a" },
+    { "id": 4, "kind": "add", "name": "a", "delta": 2 },
+    { "id": 5, "kind": "take", "name": "a" }
+  ]
+}
